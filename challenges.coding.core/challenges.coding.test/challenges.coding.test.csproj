@@ -20,4 +20,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\challenges.coding.core\challenges.coding.core.csproj" />
+  </ItemGroup>
+
 </Project>
