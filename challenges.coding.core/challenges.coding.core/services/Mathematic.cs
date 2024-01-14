@@ -70,8 +70,11 @@ public static class MathematicExtend
     public static int Multi(this List<int> input)
     {
         int a = 1;
+        Callback _showMeTheName = Control.ShowMeTheName;
+
         for (int i = 0; i < input.Count(); i++)
         {
+            _showMeTheName("Matheus");
             a += input[i];
         }
         return a;
